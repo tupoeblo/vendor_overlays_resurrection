@@ -8,6 +8,6 @@
 		android:targetPackage="android"
 		android:category="android.theme.customization.statusbar_height"/>
 	<application
-		android:label="StatusBar-XLarge"
+		android:label="StatusBar- Largest"
 		android:hasCode="false"/>
 </manifest>
