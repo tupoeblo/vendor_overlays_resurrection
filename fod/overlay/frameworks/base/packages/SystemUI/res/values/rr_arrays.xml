@@ -67,6 +67,7 @@
         <item>@drawable/fod_icon_rr2</item>
         <item>@drawable/fod_icon_invisible</item>
         <item>@drawable/fod_icon_unfunny</item>
+        <item>@drawable/fod_icon_spiral</item>
         <item>@drawable/fod_icon_26</item>
         <item>@drawable/fod_icon_27</item>
         <item>@drawable/fod_icon_28</item>
@@ -81,6 +82,8 @@
         <item>@drawable/fod_icon_37</item>
         <item>@drawable/fod_icon_38</item>
         <item>@drawable/fod_icon_39</item>
+        <item>@drawable/fod_icon_40</item>
+        <item>@drawable/fod_icon_41</item>
     </integer-array>
 
 </resources>
