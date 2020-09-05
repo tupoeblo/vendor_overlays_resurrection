@@ -86,6 +86,18 @@
         <item>@drawable/fod_icon_39</item>
         <item>@drawable/fod_icon_40</item>
         <item>@drawable/fod_icon_41</item>
+        <item>@drawable/fod_icon_42</item>
+        <item>@drawable/fod_icon_43</item>
+        <item>@drawable/fod_icon_44</item>
+        <item>@drawable/fod_icon_45</item>
+        <item>@drawable/fod_icon_46</item>
+        <item>@drawable/fod_icon_47</item>
+        <item>@drawable/fod_icon_48</item>
+        <item>@drawable/fod_icon_49</item>
+        <item>@drawable/fod_icon_50</item>
+        <item>@drawable/fod_icon_51</item>
+        <item>@drawable/fod_icon_52</item>
+        <item>@drawable/fod_icon_53</item>
     </integer-array>
 
 </resources>
