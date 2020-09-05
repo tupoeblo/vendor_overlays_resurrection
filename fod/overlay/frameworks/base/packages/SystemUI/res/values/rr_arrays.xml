@@ -98,6 +98,7 @@
         <item>@drawable/fod_icon_51</item>
         <item>@drawable/fod_icon_52</item>
         <item>@drawable/fod_icon_53</item>
+        <item>@drawable/fod_icon_54</item>
     </integer-array>
 
 </resources>
