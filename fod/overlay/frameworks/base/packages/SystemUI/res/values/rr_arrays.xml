@@ -99,6 +99,11 @@
         <item>@drawable/fod_icon_52</item>
         <item>@drawable/fod_icon_53</item>
         <item>@drawable/fod_icon_54</item>
+        <item>@drawable/fod_icon_55</item>
+        <item>@drawable/fod_icon_56</item>
+        <item>@drawable/fod_icon_57</item>
+        <item>@drawable/fod_icon_58</item>
+        <item>@drawable/fod_icon_59</item>
     </integer-array>
 
 </resources>
