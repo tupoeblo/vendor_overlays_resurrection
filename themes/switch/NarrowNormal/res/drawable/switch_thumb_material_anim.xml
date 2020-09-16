@@ -14,27 +14,18 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:id="@*android:id/off" android:state_checked="false">
-    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
-        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-          <solid android:color="?android:colorButtonNormal"/>
-          <stroke android:width="2dp" android:color="?android:colorButtonNormal"/>
-          <size android:width="18dp" android:height="18dp"/>
-        </shape>
-      </item>
-    </layer-list>
-  </item>
-  <item android:id="@*android:id/on" android:state_checked="true">
-    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
-        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-          <solid android:color="?android:colorAccent"/>
-          <stroke android:width="2dp" android:color="?android:colorAccent"/>
-          <size android:width="18dp" android:height="18dp"/>
-        </shape>
-      </item>
-    </layer-list>
-  </item>
-</selector>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+<item android:state_checked="true" 
+         android:id="@android:id/one" 
+         android:drawable="@android:drawable/btn_toggle" />
+<item android:id="@android:id/ok" 
+         android:drawable="@android:drawable/btn_switch_to_on_mtrl_00001" />
+<transition 
+         android:drawable="@android:drawable/btn_switch_to_on_mtrl_00002" 
+         android:toId="@android:id/ok" 
+         android:fromId="@android:id/one" />
+<transition 
+         android:drawable="@android:drawable/btn_toggle_bg" 
+         android:toId="@android:id/one" 
+         android:fromId="@android:id/ok" />
+</animated-selector
