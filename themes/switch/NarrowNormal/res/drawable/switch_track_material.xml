@@ -14,45 +14,42 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="300" android:exitFadeDuration="300">
-    <item android:alpha="?android:disabledAlpha" android:state_checked="true" android:state_enabled="false">
-        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-            <item android:bottom="8dp" android:gravity="fill_horizontal|center" android:top="8dp">
-                <shape android:shape="rectangle">
-                    <solid android:color="?android:colorControlActivated"/>
-                    <size android:height="2.0dip"/>
-                </shape>
-            </item>
-        </layer-list>
-    </item>
-    <item android:alpha="?android:disabledAlpha" android:state_checked="false" android:state_enabled="false">
-        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-            <item android:bottom="8dp" android:gravity="fill_horizontal|center" android:top="8dp">
-                <shape android:shape="rectangle">
-                    <solid android:color="@*android:color/switch_track_material"/>
-                    <size android:height="2.0dip"/>
-                </shape>
-            </item>
-        </layer-list>
-    </item>
-    <item android:state_checked="true" android:state_enabled="true">
-        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-            <item android:bottom="8dp" android:gravity="fill_horizontal|center" android:top="8dp">
-                <shape android:shape="rectangle">
-                    <solid android:color="?android:colorControlActivated"/>
-                    <size android:height="2.0dip"/>
-                </shape>
-            </item>
-        </layer-list>
-    </item>
-    <item android:state_checked="false" android:state_enabled="true">
-        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-            <item android:bottom="8dp" android:gravity="fill_horizontal|center" android:top="8dp">
-                <shape android:shape="rectangle">
-                    <solid android:color="@*android:color/switch_track_material"/>
-                    <size android:height="2.0dip"/>
-                </shape>
-            </item>
-        </layer-list>
-    </item>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+	<item android:state_enabled="true" android:state_checked="true">
+		<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="3.0dip" android:insetRight="3.0dip">
+			<shape android:shape="rectangle">
+				<solid android:color="?android:colorAccent" />
+				<corners android:radius="999.0dip" />
+				<stroke android:width="2.1999817dip" android:color="?android:colorAccent" />
+			</shape>
+		</inset>
+	</item>
+	<item android:state_enabled="true" android:state_checked="false">
+		<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="3.0dip" android:insetRight="3.0dip">
+			<shape android:shape="rectangle">
+				<solid android:color="#00ffffff" />
+				<corners android:radius="999.0dip" />
+				<stroke android:width="2.1999817dip" android:color="?android:colorControlNormal" />
+			</shape>
+		</inset>
+	</item>
+	<item android:state_enabled="false" android:state_checked="true" android:alpha="?android:disabledAlpha">
+		<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="3.0dip" android:insetRight="3.0dip">
+			<shape android:shape="rectangle">
+				<solid android:color="?android:colorAccent" />
+				<corners android:radius="999.0dip" />
+				<stroke android:width="2.1999817dip" android:color="?android:colorAccent" />
+			</shape>
+		</inset>
+	</item>
+	<item android:state_enabled="false" android:state_checked="false" android:alpha="?android:disabledAlpha">
+		<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="3.0dip" android:insetRight="3.0dip">
+			<shape android:shape="rectangle">
+				<solid android:color="#00ffffff" />
+				<corners android:radius="999.0dip" />
+				<stroke android:width="2.1999817dip" android:color="?android:colorControlNormal" />
+			</shape>
+		</inset>
+	</item>
 </selector>
+
